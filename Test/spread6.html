@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    //단순 변수 할당
+    var arr1 = ['철수','영희'];
+    var arr2 = arr1;
+    var arr3 = [...arr1];
+    arr2.push('바둑이');
+    document.write(arr2);
+
+    document.write("<br>");
+    
+    //원본 배열도 변경됨 (레퍼런스 복사)
+    document.write(arr1);
+
+    document.write("<br>");
+
+    //스프레드 연산자를 사용해야 진짜 배열 복사
+    document.write(arr3);
+  </script>
+</body>
+</html>

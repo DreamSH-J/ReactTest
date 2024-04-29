@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Map3</title>
+</head>
+<body>
+  <h1>Map3</h1>
+  <script>
+    // `` 백틱   변수를 편리하게 묶어 사용하기 위해 사용
+    var s = `abc`;
+    // 문자열 리터럴
+
+    var name = 'Rohit Jindal';
+    var text = `My name is ${name}`;
+    console.log(text);
+
+    let arr = [10, 20, 30, 40, 50];
+    let newArr = arr.map((item, i) => {
+      console.log(item * 5);
+      console.log(`Index: ${i}`);
+      return item * 5;
+    });
+    // document.write(newArr);
+    console.log(newArr);
+  </script>
+</body>
+</html>
