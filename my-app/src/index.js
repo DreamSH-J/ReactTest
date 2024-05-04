@@ -5,12 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import NotificationList from './Chapter6/NotificationList';
 import Accommodate from './Chapter7/Accommodate';
+import ConfirmButtonF from './Chapter8/ConfirmButtonF';
+import LandingPage from './Chapter9/LadingPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
   root.render(
-    // <React.StrictMode>
-      <Accommodate />
-    // </React.StrictMode>
+    <React.StrictMode>
+      <LandingPage />
+    </React.StrictMode>
   );
 
 // If you want to start measuring performance in your app, pass a function
